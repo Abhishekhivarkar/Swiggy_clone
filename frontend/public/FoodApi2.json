@@ -1,0 +1,115 @@
+[
+  {
+    "id": 1,
+    "name": "Theobroma",
+    "rating": 4.4,
+    "location": "Pimple Saudagar",
+    "Image": "/Image/Rimages/Image13.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Chinese Wok",
+    "rating": 4.1,
+    "location": "Pimple Saudagar",
+    "Image": "/Image/Rimages/Image8.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Pizza Hut",
+    "rating": 4.0,
+    "location": "Pimple Saudagar",
+    "Image": "/Image/Rimages/Image1.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Burger King",
+    "rating": 4.2,
+    "location": "Rahatani",
+    "Image": "/Image/Rimages/Image15.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Baskin Robbins",
+    "rating": 4.7,
+    "location": "Pimple Saudagar",
+    "Image": "/Image/Rimages/Image6.jpg"
+  },
+  {
+    "id": 6,
+    "name": "The Wood Fired Pizzeria",
+    "rating": 4.3,
+    "location": "Bhat Nagar",
+    "Image": "/Image/Rimages/Image3.jpg"
+  },
+  {
+    "id": 7,
+    "name": "KFC",
+    "rating": 4.1,
+    "location": "Baner",
+    "Image": "/Image/Rimages/Image10.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Domino’s Pizza",
+    "rating": 4.2,
+    "location": "Aundh",
+    "Image": "/Image/Rimages/Image9.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Starbucks Coffee",
+    "rating": 4.5,
+    "location": "Viman Nagar",
+    "Image": "/Image/Rimages/Image4.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Faasos - Wraps & Rolls",
+    "rating": 4.3,
+    "location": "Kharadi",
+    "Image": "/Image/Rimages/Image12.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Behrouz Biryani",
+    "rating": 4.4,
+    "location": "Kalyani Nagar",
+    "Image": "/Image/Rimages/Image11.jpg"
+  },
+  {
+    "id": 12,
+    "name": "McDonald's",
+    "rating": 4.2,
+    "location": "Hinjewadi",
+    "Image": "/Image/Rimages/Image7.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Barbeque Nation",
+    "rating": 4.5,
+    "location": "Magarpatta",
+    "Image": "/Image/Rimages/Image5.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Mainland China",
+    "rating": 4.6,
+    "location": "Deccan Gymkhana",
+    "Image": "/Image/Rimages/Image2.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Haldiram's",
+    "rating": 4.3,
+    "location": "Camp",
+    "Image": "/Image/Rimages/Image14.jpg"
+  },
+    {
+    "id": 16,
+    "name": "Haldiram's",
+    "rating": 4.3,
+    "location": "Camp",
+    "Image": "/Image/Rimages/Image6.jpg"
+  }
+  
+]

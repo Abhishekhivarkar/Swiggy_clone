@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Best Restaurant in Mumbai"
+  },
+  {
+    "id": 2,
+    "name": "Best Restaurant in Delhi"
+  },
+  {
+    "id": 3,
+    "name": "Best Restaurant in Bangalore"
+  },
+  {
+    "id": 4,
+    "name": "Best Restaurant in Hyderabad"
+  },
+  {
+    "id": 5,
+    "name": "Best Restaurant in Chennai"
+  },
+  {
+    "id": 6,
+    "name": "Best Restaurant in Kolkata"
+  },
+  {
+    "id": 7,
+    "name": "Best Restaurant in Pune"
+  },
+  {
+    "id": 8,
+    "name": "Best Restaurant in Jaipur"
+  },
+  {
+    "id": 9,
+    "name": "Best Restaurant in Ahmedabad"
+  },
+  {
+    "id": 10,
+    "name": "Best Restaurant in Goa"
+  },
+  {
+    "id": 11,
+    "name": "Best Restaurant in Lucknow"
+  },
+  {
+    "id": 12,
+    "name": "Best Restaurant in Chandigarh"
+  }
+]

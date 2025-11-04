@@ -1,0 +1,73 @@
+import { useState, useEffect, useRef} from "react";
+import {useForm} from "react-hook-form"
+function App() {
+  const [data,setData] = useState({
+    name:"abhishek",
+    address:{
+      city:"pune",
+      country:"india",
+      name1:{
+        name:"amit",
+        name2:{
+          name:"aditya",
+          name3:{
+            name:"abhishek",
+          }
+        }
+      }
+    }
+  })
+  function change(val){
+    setData((prev)=>({
+      ...prev,
+      name:val,
+      address:{
+        ...prev.address
+      },
+    }))
+        
+  }
+  
+  
+  function change1(val){
+    setData((prev)=>({
+      ...prev,
+      address:{
+        ...prev.address,
+        name1:{
+          ...prev.address.name1,name:val,
+        },
+      },
+      
+      
+    }))
+  }
+  useEffect(()=>{
+    console.log(data)
+    
+  },[data])
+  
+  return (
+    <>
+     <div>
+       <label>Name : </label>
+       <input onChange={(e)=>change(e.target.value)}/>
+       <br></br>
+       <label>name 2: </label>
+       <input onChange={(e)=>change1(e.target.value)}/>
+      <p >name : {data.name} </p>
+      <p>city : {data.address.city}</p>
+      <p>country : {data.address.country}</p>
+      <p>first Name: {data.address.name1.name}</p>
+      <p>second Name: {data.address.name1.name2.name}</p>
+      <p>Third Name Name: {data.address.name1.name2.name3.name}</p>
+     </div>
+       
+    </>
+    
+        
+    
+  );
+}
+
+export default App;

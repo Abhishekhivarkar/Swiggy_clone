@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+  .btn{
+    @apply bg-blue-600 size-12 h-14 w-24 rounded-lg text-white text-[30px] active:bg-blue-400 
+  }
+  .text{
+    @apply text-red-500
+  }
+  .card{
+    @apply bg-gray-200 rounded-md h-[300px] w-[200px]
+  }
+  .border1{
+    @apply border border-black px-4 py-2
+  }
+  .formstyle{
+    @apply border border-black max-w-[400px] max-h-[600px] p-4 rounded-lg mt-3 
+  }
+  .black-overlay{
+    @apply bg-[rgba(0,0,0,0.7)]
+  }
+  
+}
+
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
