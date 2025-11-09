@@ -3,6 +3,7 @@ import { FaArrowLeft } from "react-icons/fa6";
 import { FaArrowRight } from "react-icons/fa6";
 import { FcRating } from "react-icons/fc";
 import {useNavigate} from "react-router-dom"
+import FoodApi2 from "../data/FoodApi2.json" 
 import axios from "axios"
 function SecondMiddleContent(){
   const navigate = useNavigate()
@@ -35,7 +36,7 @@ function SecondMiddleContent(){
       setRestaurants(res.data)
     }catch(err){
       console.log("Error : ",err)
-        
+         setRestaurants(FoodApi2)
       }
     }
     }

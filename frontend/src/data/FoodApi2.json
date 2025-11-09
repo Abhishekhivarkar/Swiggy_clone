@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "name": "Theobroma",
+    "rating": 4.4,
+    "location": "Pimple Saudagar",
+    "Image": "/Image/Rimages/Image13.jpg",
+    "price": 299
+  },
+  {
+    "id": 2,
+    "name": "Chinese Wok",
+    "rating": 4.1,
+    "location": "Pimple Saudagar",
+    "Image": "/Image/Rimages/Image8.jpg",
+    "price": 249
+  },
+  {
+    "id": 3,
+    "name": "Pizza Hut",
+    "rating": 4.0,
+    "location": "Pimple Saudagar",
+    "Image": "/Image/Rimages/Image1.jpg",
+    "price": 399
+  },
+  {
+    "id": 4,
+    "name": "Burger King",
+    "rating": 4.2,
+    "location": "Rahatani",
+    "Image": "/Image/Rimages/Image15.jpg",
+    "price": 199
+  },
+  {
+    "id": 5,
+    "name": "Baskin Robbins",
+    "rating": 4.7,
+    "location": "Pimple Saudagar",
+    "Image": "/Image/Rimages/Image6.jpg",
+    "price": 149
+  },
+  {
+    "id": 6,
+    "name": "The Wood Fired Pizzeria",
+    "rating": 4.3,
+    "location": "Bhat Nagar",
+    "Image": "/Image/Rimages/Image3.jpg",
+    "price": 449
+  },
+  {
+    "id": 7,
+    "name": "KFC",
+    "rating": 4.1,
+    "location": "Baner",
+    "Image": "/Image/Rimages/Image10.jpg",
+    "price": 279
+  },
+  {
+    "id": 8,
+    "name": "Domino’s Pizza",
+    "rating": 4.2,
+    "location": "Aundh",
+    "Image": "/Image/Rimages/Image9.jpg",
+    "price": 349
+  },
+  {
+    "id": 9,
+    "name": "Starbucks Coffee",
+    "rating": 4.5,
+    "location": "Viman Nagar",
+    "Image": "/Image/Rimages/Image4.jpg",
+    "price": 499
+  },
+  {
+    "id": 10,
+    "name": "Faasos - Wraps & Rolls",
+    "rating": 4.3,
+    "location": "Kharadi",
+    "Image": "/Image/Rimages/Image12.jpg",
+    "price": 229
+  },
+  {
+    "id": 11,
+    "name": "Behrouz Biryani",
+    "rating": 4.4,
+    "location": "Kalyani Nagar",
+    "Image": "/Image/Rimages/Image11.jpg",
+    "price": 549
+  },
+  {
+    "id": 12,
+    "name": "McDonald's",
+    "rating": 4.2,
+    "location": "Hinjewadi",
+    "Image": "/Image/Rimages/Image7.jpg",
+    "price": 179
+  },
+  {
+    "id": 13,
+    "name": "Barbeque Nation",
+    "rating": 4.5,
+    "location": "Magarpatta",
+    "Image": "/Image/Rimages/Image5.jpg",
+    "price": 599
+  },
+  {
+    "id": 14,
+    "name": "Mainland China",
+    "rating": 4.6,
+    "location": "Deccan Gymkhana",
+    "Image": "/Image/Rimages/Image2.jpg",
+    "price": 469
+  },
+  {
+    "id": 15,
+    "name": "Haldiram's",
+    "rating": 4.3,
+    "location": "Camp",
+    "Image": "/Image/Rimages/Image14.jpg",
+    "price": 189
+  },
+  {
+    "id": 16,
+    "name": "Haldiram's",
+    "rating": 4.3,
+    "location": "Camp",
+    "Image": "/Image/Rimages/Image6.jpg",
+    "price": 209
+  }
+]

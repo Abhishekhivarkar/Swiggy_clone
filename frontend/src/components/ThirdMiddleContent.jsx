@@ -5,37 +5,37 @@ import { RxCaretDown } from "react-icons/rx";
 import { RxCross2 } from "react-icons/rx";
 import axios from "axios"
 import {useNavigate } from "react-router-dom"
+import TopRestaurants from "../data/TopRestaurants.json"
 function ThirdMiddleContent(){
   const [ResImages,setResImages] = useState([])
   const [toggle,setToggle]  = useState(false)
   const [toggle2,setToggle2]  = useState(false)
  const navigate = useNavigate()
   
-  useEffect(()=>{
-    
-    const fetchData =async()=>{
-      try{
-     const res = await axios.get("http://127.0.0.1:4001/restaurant")
-      console.log("data received")
-      setResImages(res.data)
-    }
-    
-    catch(err1){
-      console.log("Error:",err1.message)
-      
-      try{
-        const res = await axios.get("http://localhost:4001/restaurant")
-          console.log("data received")
-          setResImages(res.data)
+   useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const res = await axios.get("http://127.0.0.1:4001/restaurant");
+        console.log("Data received from 127.0.0.1");
+        setResImages(res.data);
+      } catch (err1) {
+        console.log("Error (127.0.0.1):", err1.message);
+
+        try {
+          const res = await axios.get("http://localhost:4001/restaurant");
+          console.log("Data received from localhost");
+          setResImages(res.data);
+        } catch (err2) {
+          console.log("Error (localhost):", err2.message);
+          console.log("Loading data from local JSON file...");
+          setResImages(TopRestaurants); // fallback to local JSON
         }
-      catch(err2){
-        console.log("Error:",err2.message)
       }
-    }
-    }
-    
-    fetchData()
-  },[])
+    };
+
+    fetchData();
+  }, []);
+
   
   function filterToggle(){
     setToggle(true)

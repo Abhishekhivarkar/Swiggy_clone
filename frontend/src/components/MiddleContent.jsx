@@ -2,7 +2,7 @@ import { FaArrowLeft, FaArrowRight } from "react-icons/fa6";
 import { useState, useEffect } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
-
+import FoodApi from "../data/FoodApi.json" 
 function MiddleContent() {
   const navigate = useNavigate();
   const [slide, setSlide] = useState(0);
@@ -23,6 +23,7 @@ function MiddleContent() {
           setFood(res.data);
         } catch (err2) {
           console.error("Error with localhost:", err2.message);
+          setFood(FoodApi)
         }
       }
     };
